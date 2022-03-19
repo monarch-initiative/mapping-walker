@@ -34,9 +34,15 @@ The output looks like:
 
 * FMA:24879
 
-![FMA:24879](./docs/images/omim-example.png)
+![FMA:24879](./docs/images/fma-example.png)
 
 
+### Disease
+
+MONDO:0019249 ! mucopolysaccharidosis
+
+
+![mucopolysaccharidosis](./docs/images/muco-example.png)
 
 ## TODO
 
