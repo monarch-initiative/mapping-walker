@@ -179,7 +179,7 @@ class Pipeline:
 def main(curies, working_directory, stylesheet):
     curies = list(curies)
     if working_directory is None:
-        working_directory = '-'.join(curies)
+        working_directory = Path('output') / '-'.join(curies)
     ec = EndpointConfiguration(type=EndpointEnum.OxO)
     conf = PipelineConfiguration(working_directory=working_directory,
                                  stylesheet=stylesheet,
