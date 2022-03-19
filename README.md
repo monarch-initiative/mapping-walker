@@ -46,7 +46,8 @@ MONDO:0019249 ! mucopolysaccharidosis
 
 ## TODO
 
-- add bioportal
+- add bioportal endpoint (currently uses oxo)
+- add ubergraph endpoint
 
 
 
