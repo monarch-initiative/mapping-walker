@@ -1,0 +1,844 @@
+{
+  "_embedded" : {
+    "mappings" : [ {
+      "mappingId" : 66012075,
+      "datasource" : {
+        "prefix" : "MP",
+        "preferredPrefix" : "MP",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "mp", "MP" ],
+        "alternateIris" : [ ],
+        "name" : "The Mammalian Phenotype Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:01.672+0000"
+      },
+      "sourcePrefix" : "MP",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "FMA:45632",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/FMA_45632",
+        "label" : "Capillary bed",
+        "datasource" : {
+          "prefix" : "FMA",
+          "preferredPrefix" : "FMA",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "fma", "FMA" ],
+          "alternateIris" : [ ],
+          "name" : "Foundational Model of Anatomy Ontology (subset)",
+          "orcid" : null,
+          "description" : "This is currently a slimmed down version of FMA",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:27:52.070+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/66012075"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/FMA:45632"
+        }
+      }
+    }, {
+      "mappingId" : 66012183,
+      "datasource" : {
+        "prefix" : "MP",
+        "preferredPrefix" : "MP",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "mp", "MP" ],
+        "alternateIris" : [ ],
+        "name" : "The Mammalian Phenotype Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:01.672+0000"
+      },
+      "sourcePrefix" : "MP",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "NCIT:C33109",
+        "identifier" : null,
+        "uri" : "",
+        "label" : "",
+        "datasource" : {
+          "prefix" : "NCIT",
+          "preferredPrefix" : "NCIT",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "ncit", "NCIT", "nci_thesaurus", "ncithesaurus", "NCI2009_04D", "NCI", "nci", "nci2009_04d", "NCITHESAURUS", "NCI_THESAURUS", "NCI_Thesaurus" ],
+          "alternateIris" : [ ],
+          "name" : "NCI Thesaurus OBO Edition",
+          "orcid" : null,
+          "description" : "The NCIt OBO Edition project aims to increase integration of the NCIt with OBO Library ontologies. NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities. NCIt OBO Edition releases should be considered experimental.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:30:58.295+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/66012183"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/NCIT:C33109"
+        }
+      }
+    }, {
+      "mappingId" : 66012489,
+      "datasource" : {
+        "prefix" : "MP",
+        "preferredPrefix" : "MP",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "mp", "MP" ],
+        "alternateIris" : [ ],
+        "name" : "The Mammalian Phenotype Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:01.672+0000"
+      },
+      "sourcePrefix" : "MP",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "EMAPA:36291",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/EMAPA_36291",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "EMAPA",
+          "preferredPrefix" : "EMAPA",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "emapa", "EMAPA" ],
+          "alternateIris" : [ ],
+          "name" : "Mouse Developmental Anatomy Ontology",
+          "orcid" : null,
+          "description" : "An ontology for mouse anatomy covering embryonic development and postnatal stages.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:26:26.986+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/66012489"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/EMAPA:36291"
+        }
+      }
+    }, {
+      "mappingId" : 66012678,
+      "datasource" : {
+        "prefix" : "MP",
+        "preferredPrefix" : "MP",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "mp", "MP" ],
+        "alternateIris" : [ ],
+        "name" : "The Mammalian Phenotype Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:01.672+0000"
+      },
+      "sourcePrefix" : "MP",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "AEO:0001002",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/AEO_0001002",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "AEO",
+          "preferredPrefix" : "AEO",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "aeo", "AEO" ],
+          "alternateIris" : [ ],
+          "name" : "Anatomical Entity Ontology",
+          "orcid" : null,
+          "description" : "AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:26:05.812+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/66012678"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/AEO:0001002"
+        }
+      }
+    }, {
+      "mappingId" : 65714522,
+      "datasource" : {
+        "prefix" : "HCAO",
+        "preferredPrefix" : "HCAO",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "HCAO", "hcao" ],
+        "alternateIris" : [ ],
+        "name" : "Human Cell Atlas Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:42.894+0000"
+      },
+      "sourcePrefix" : "HCAO",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "FMA:45632",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/FMA_45632",
+        "label" : "Capillary bed",
+        "datasource" : {
+          "prefix" : "FMA",
+          "preferredPrefix" : "FMA",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "fma", "FMA" ],
+          "alternateIris" : [ ],
+          "name" : "Foundational Model of Anatomy Ontology (subset)",
+          "orcid" : null,
+          "description" : "This is currently a slimmed down version of FMA",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:27:52.070+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/65714522"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/FMA:45632"
+        }
+      }
+    }, {
+      "mappingId" : 65714642,
+      "datasource" : {
+        "prefix" : "HCAO",
+        "preferredPrefix" : "HCAO",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "HCAO", "hcao" ],
+        "alternateIris" : [ ],
+        "name" : "Human Cell Atlas Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:42.894+0000"
+      },
+      "sourcePrefix" : "HCAO",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "NCIT:C33109",
+        "identifier" : null,
+        "uri" : "",
+        "label" : "",
+        "datasource" : {
+          "prefix" : "NCIT",
+          "preferredPrefix" : "NCIT",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "ncit", "NCIT", "nci_thesaurus", "ncithesaurus", "NCI2009_04D", "NCI", "nci", "nci2009_04d", "NCITHESAURUS", "NCI_THESAURUS", "NCI_Thesaurus" ],
+          "alternateIris" : [ ],
+          "name" : "NCI Thesaurus OBO Edition",
+          "orcid" : null,
+          "description" : "The NCIt OBO Edition project aims to increase integration of the NCIt with OBO Library ontologies. NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities. NCIt OBO Edition releases should be considered experimental.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:30:58.295+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/65714642"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/NCIT:C33109"
+        }
+      }
+    }, {
+      "mappingId" : 65714731,
+      "datasource" : {
+        "prefix" : "HCAO",
+        "preferredPrefix" : "HCAO",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "HCAO", "hcao" ],
+        "alternateIris" : [ ],
+        "name" : "Human Cell Atlas Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:42.894+0000"
+      },
+      "sourcePrefix" : "HCAO",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "EMAPA:36291",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/EMAPA_36291",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "EMAPA",
+          "preferredPrefix" : "EMAPA",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "emapa", "EMAPA" ],
+          "alternateIris" : [ ],
+          "name" : "Mouse Developmental Anatomy Ontology",
+          "orcid" : null,
+          "description" : "An ontology for mouse anatomy covering embryonic development and postnatal stages.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:26:26.986+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/65714731"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/EMAPA:36291"
+        }
+      }
+    }, {
+      "mappingId" : 65714807,
+      "datasource" : {
+        "prefix" : "HCAO",
+        "preferredPrefix" : "HCAO",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "HCAO", "hcao" ],
+        "alternateIris" : [ ],
+        "name" : "Human Cell Atlas Ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:29:42.894+0000"
+      },
+      "sourcePrefix" : "HCAO",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "AEO:0001002",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/AEO_0001002",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "AEO",
+          "preferredPrefix" : "AEO",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "aeo", "AEO" ],
+          "alternateIris" : [ ],
+          "name" : "Anatomical Entity Ontology",
+          "orcid" : null,
+          "description" : "AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:26:05.812+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/65714807"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/AEO:0001002"
+        }
+      }
+    }, {
+      "mappingId" : 60379032,
+      "datasource" : {
+        "prefix" : "UBERON",
+        "preferredPrefix" : "UBERON",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "uberon", "UBERON" ],
+        "alternateIris" : [ ],
+        "name" : "Uber-anatomy ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+      },
+      "sourcePrefix" : "UBERON",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "NCIT:C33109",
+        "identifier" : null,
+        "uri" : "",
+        "label" : "",
+        "datasource" : {
+          "prefix" : "NCIT",
+          "preferredPrefix" : "NCIT",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "ncit", "NCIT", "nci_thesaurus", "ncithesaurus", "NCI2009_04D", "NCI", "nci", "nci2009_04d", "NCITHESAURUS", "NCI_THESAURUS", "NCI_Thesaurus" ],
+          "alternateIris" : [ ],
+          "name" : "NCI Thesaurus OBO Edition",
+          "orcid" : null,
+          "description" : "The NCIt OBO Edition project aims to increase integration of the NCIt with OBO Library ontologies. NCIt is a reference terminology that includes broad coverage of the cancer domain, including cancer related diseases, findings and abnormalities. NCIt OBO Edition releases should be considered experimental.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:30:58.295+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/60379032"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/NCIT:C33109"
+        }
+      }
+    }, {
+      "mappingId" : 60378945,
+      "datasource" : {
+        "prefix" : "UBERON",
+        "preferredPrefix" : "UBERON",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "uberon", "UBERON" ],
+        "alternateIris" : [ ],
+        "name" : "Uber-anatomy ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+      },
+      "sourcePrefix" : "UBERON",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "FMA:45632",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/FMA_45632",
+        "label" : "Capillary bed",
+        "datasource" : {
+          "prefix" : "FMA",
+          "preferredPrefix" : "FMA",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "fma", "FMA" ],
+          "alternateIris" : [ ],
+          "name" : "Foundational Model of Anatomy Ontology (subset)",
+          "orcid" : null,
+          "description" : "This is currently a slimmed down version of FMA",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:27:52.070+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/60378945"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/FMA:45632"
+        }
+      }
+    }, {
+      "mappingId" : 60379161,
+      "datasource" : {
+        "prefix" : "UBERON",
+        "preferredPrefix" : "UBERON",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "uberon", "UBERON" ],
+        "alternateIris" : [ ],
+        "name" : "Uber-anatomy ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+      },
+      "sourcePrefix" : "UBERON",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "AEO:0001002",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/AEO_0001002",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "AEO",
+          "preferredPrefix" : "AEO",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "aeo", "AEO" ],
+          "alternateIris" : [ ],
+          "name" : "Anatomical Entity Ontology",
+          "orcid" : null,
+          "description" : "AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:26:05.812+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/60379161"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/AEO:0001002"
+        }
+      }
+    }, {
+      "mappingId" : 60379160,
+      "datasource" : {
+        "prefix" : "UBERON",
+        "preferredPrefix" : "UBERON",
+        "idorgNamespace" : "",
+        "alternatePrefix" : [ "uberon", "UBERON" ],
+        "alternateIris" : [ ],
+        "name" : "Uber-anatomy ontology",
+        "orcid" : null,
+        "description" : null,
+        "source" : "ONTOLOGY",
+        "licence" : "https://creativecommons.org/licenses/by/4.0/",
+        "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+      },
+      "sourcePrefix" : "UBERON",
+      "sourceType" : "ONTOLOGY",
+      "predicate" : null,
+      "fromTerm" : {
+        "curie" : "UBERON:0013141",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/UBERON_0013141",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "UBERON",
+          "preferredPrefix" : "UBERON",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "uberon", "UBERON" ],
+          "alternateIris" : [ ],
+          "name" : "Uber-anatomy ontology",
+          "orcid" : null,
+          "description" : "Uberon is an integrated cross-species anatomy ontology representing a variety of entities classified according to traditional anatomical criteria such as structure, function and developmental lineage. The ontology includes comprehensive relationships to taxon-specific anatomical ontologies, allowing integration of functional, phenotype and expression data.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:28:00.492+0000"
+        }
+      },
+      "toTerm" : {
+        "curie" : "EMAPA:36291",
+        "identifier" : null,
+        "uri" : "http://purl.obolibrary.org/obo/EMAPA_36291",
+        "label" : "capillary bed",
+        "datasource" : {
+          "prefix" : "EMAPA",
+          "preferredPrefix" : "EMAPA",
+          "idorgNamespace" : "",
+          "alternatePrefix" : [ "emapa", "EMAPA" ],
+          "alternateIris" : [ ],
+          "name" : "Mouse Developmental Anatomy Ontology",
+          "orcid" : null,
+          "description" : "An ontology for mouse anatomy covering embryonic development and postnatal stages.",
+          "source" : "ONTOLOGY",
+          "licence" : "https://creativecommons.org/licenses/by/4.0/",
+          "versionInfo" : "Last updated in the ontology lookup service on 2021-04-02T00:26:26.986+0000"
+        }
+      },
+      "scope" : "RELATED",
+      "date" : "2021-05-08T00:00:00.000+0000",
+      "_links" : {
+        "link_to_self" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings/60379160"
+        },
+        "fromTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/UBERON:0013141"
+        },
+        "toTerm" : {
+          "href" : "https://www.ebi.ac.uk/spot/oxo/api/terms/EMAPA:36291"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "link_to_self" : {
+      "href" : "https://www.ebi.ac.uk/spot/oxo/api/mappings"
+    }
+  },
+  "page" : {
+    "size" : 0,
+    "totalElements" : 12,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

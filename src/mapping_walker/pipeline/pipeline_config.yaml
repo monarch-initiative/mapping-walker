@@ -1,0 +1,51 @@
+id: https://w3id.org/sssom/walker_config
+name: walker-confic
+description: Schema for Walker Config
+imports:
+- linkml:types
+prefixes:
+  linkml: https://w3id.org/linkml/
+  config: https://w3id.org/sssom/walker_config/
+default_prefix: config
+
+enums:
+  EndpointEnum:
+    permissible_values:
+      OxO:
+      BioPortal:
+types:
+  MaximumCount:
+    typeof: integer
+    #minimum_value: 0
+  Directory:
+    typeof: string
+  FilePath:
+    typeof: string
+classes:
+  BoomerConfiguration:
+    attributes:
+      runs:
+        range: MaximumCount
+      window:
+        range: MaximumCount
+  EndpointConfiguration:
+    attributes:
+      type:
+        range: EndpointEnum
+  PipelineConfiguration:
+    attributes:
+      endpoint_configurations:
+        range: EndpointConfiguration
+        multivalued: true
+        inlined: true
+        inlined_as_list: true
+      max_clique_size:
+        range: MaximumCount
+      max_hops:
+        range: MaximumCount
+      working_directory:
+        range: Directory
+      stylesheet:
+        range: FilePath
+      boomer_configuration:
+        range: BoomerConfiguration

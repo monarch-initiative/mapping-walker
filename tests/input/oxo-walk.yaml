@@ -1,0 +1,3612 @@
+mapping_set_id: TODO
+license: http://example.org
+mappings:
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: ICD10CM:D61.09
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: MeSH:D005199
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: DOID:13636
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: ICD9CM:284.09
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: Orphanet:84
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: MedDRA:10055206
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: MedDRA
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: MONDO:0019391
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: Orphanet
+  object_source: MONDO
+  mapping_provider: EFO
+- subject_id: UMLS:C0015625
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D005199
+  match_type:
+  - Unspecified
+  subject_label: Fanconi Anemia
+  object_label: Fanconi Anemia
+  subject_source: UMLS
+  object_source: MeSH
+  mapping_provider: UMLS
+- subject_id: UMLS:C0015625
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi Anemia
+  object_label: ''
+  subject_source: UMLS
+  object_source: NCIT
+  mapping_provider: UMLS
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: BAO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: MedDRA:10055206
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: MedDRA
+  mapping_provider: MONDO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: MedDRA:10055206
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: MedDRA
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: MedDRA:10055206
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: MedDRA
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:617247
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D005199
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: Orphanet
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: NCIT
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: MedDRA:10055206
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: MedDRA
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614087
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: DOID:13636
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: Orphanet
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: UMLS:C1836860
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0012187
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111097
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0012187
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111097
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: Fanconi anemia complementation group J
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111097
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111097
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: Fanconi anemia complementation group J
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0012187
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111097
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: Fanconi anemia complementation group J
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0012187
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0012187
+  predicate_id: skos:exactMatch
+  object_id: NCIT:C129027
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: MONDO:0012187
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C1836860
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0012187
+  predicate_id: skos:exactMatch
+  object_id: MeSH:C563801
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: MONDO
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111097
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: Fanconi anemia complementation group J
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563801
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1836860
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C129027
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: EFO
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: UMLS:C1836860
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609054
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: UMLS:C1836860
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563801
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: MeSH
+  mapping_provider: UMLS
+- subject_id: MONDO:0012187
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C1836860
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0012187
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1836860
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group J
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0013566
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111082
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0013566
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0013566
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: Fanconi anemia complementation group L
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111082
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0013566
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: Fanconi anemia complementation group L
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0013566
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: Fanconi anemia complementation group L
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0013566
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0013566
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0013566
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group L
+  object_label: Fanconi anemia complementation group L
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0011325
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111088
+  predicate_id: skos:closeMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: EFO:0009045
+  predicate_id: skos:closeMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: EFO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0011325
+  predicate_id: skos:exactMatch
+  object_id: EFO:0009045
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: Fanconi anemia complementation group F
+  subject_source: MONDO
+  object_source: EFO
+  mapping_provider: MONDO
+- subject_id: EFO:0009045
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:121719
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: FA complementation group F
+  subject_source: EFO
+  object_source: Orphanet
+  mapping_provider: EFO
+- subject_id: EFO:0009045
+  predicate_id: skos:closeMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: EFO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: EFO:0009045
+  predicate_id: skos:closeMatch
+  object_id: Wikipedia:FANCF
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: EFO
+  object_source: Wikipedia
+  mapping_provider: EFO
+- subject_id: MONDO:0011325
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111088
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: Fanconi anemia complementation group F
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111088
+  predicate_id: skos:closeMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0011325
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111088
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: Fanconi anemia complementation group F
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0011325
+  predicate_id: skos:exactMatch
+  object_id: EFO:0009045
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: Fanconi anemia complementation group F
+  subject_source: MONDO
+  object_source: EFO
+  mapping_provider: MONDO
+- subject_id: MONDO:0011325
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:603467
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0011325
+  predicate_id: skos:exactMatch
+  object_id: NCIT:C125707
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group F
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: UMLS:C3160738
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0009214
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111083
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0009214
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: Fanconi anemia complementation group D2
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111083
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0009214
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111083
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: Fanconi anemia complementation group D2
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0009214
+  predicate_id: skos:exactMatch
+  object_id: NCIT:C125706
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: MONDO:0009214
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3160738
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0009214
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: UMLS:C3160738
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227646
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: UMLS:C3160738
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C125706
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: NCIT
+  mapping_provider: UMLS
+- subject_id: MONDO:0009214
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3160738
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group D2
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614087
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: UMLS:C3808988
+  predicate_id: skos:closeMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0014108
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111093
+  predicate_id: skos:closeMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0014108
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111093
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: Fanconi anemia complementation group Q
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111093
+  predicate_id: skos:closeMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0014108
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3808988
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0014108
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111093
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: Fanconi anemia complementation group Q
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0014108
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: UMLS:C3808988
+  predicate_id: skos:closeMatch
+  object_id: OMIM:615272
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0014108
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3808988
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group Q
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0014987
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:617247
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group U
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111085
+  predicate_id: skos:closeMatch
+  object_id: OMIM:617247
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group U
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:617247
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:617247
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0014987
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111085
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group U
+  object_label: Fanconi anemia complementation group U
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111085
+  predicate_id: skos:closeMatch
+  object_id: OMIM:617247
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group U
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0014987
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C4310651
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group U
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0014987
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:617247
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group U
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0014987
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111085
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group U
+  object_label: Fanconi anemia complementation group U
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: UMLS:C1835817
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0012565
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111094
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0012565
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0012565
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111094
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: Fanconi anemia complementation group N
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111094
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0012565
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111094
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: Fanconi anemia complementation group N
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0012565
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111094
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: Fanconi anemia complementation group N
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0012565
+  predicate_id: skos:exactMatch
+  object_id: MeSH:C563657
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: MONDO
+- subject_id: MONDO:0012565
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0012565
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C1835817
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0012565
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111094
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: Fanconi anemia complementation group N
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0012565
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563657
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: MONDO:0012565
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0012565
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1835817
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: UMLS:C1835817
+  predicate_id: skos:closeMatch
+  object_id: OMIM:610832
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: UMLS:C1835817
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563657
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: MeSH
+  mapping_provider: UMLS
+- subject_id: MONDO:0012565
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C1835817
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0012565
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1835817
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group N
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: UMLS:C3150653
+  predicate_id: skos:closeMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0013248
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111096
+  predicate_id: skos:closeMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0013248
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111096
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: Fanconi anemia complementation group O
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111096
+  predicate_id: skos:closeMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0013248
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0013248
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3150653
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0013248
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111096
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: Fanconi anemia complementation group O
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: UMLS:C3150653
+  predicate_id: skos:closeMatch
+  object_id: OMIM:613390
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0013248
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3150653
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group O
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0013565
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111086
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: EFO:0009046
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: EFO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0013565
+  predicate_id: skos:exactMatch
+  object_id: EFO:0009046
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: Fanconi anemia complementation group G
+  subject_source: MONDO
+  object_source: EFO
+  mapping_provider: MONDO
+- subject_id: EFO:0009046
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: EFO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: EFO:0009046
+  predicate_id: skos:closeMatch
+  object_id: Wikipedia:FANCG
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: EFO
+  object_source: Wikipedia
+  mapping_provider: EFO
+- subject_id: EFO:0009046
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:121722
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: FA complementation group G
+  subject_source: EFO
+  object_source: Orphanet
+  mapping_provider: EFO
+- subject_id: MONDO:0013565
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111086
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: Fanconi anemia complementation group G
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111086
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0013565
+  predicate_id: skos:exactMatch
+  object_id: EFO:0009046
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: Fanconi anemia complementation group G
+  subject_source: MONDO
+  object_source: EFO
+  mapping_provider: MONDO
+- subject_id: MONDO:0013565
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111086
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: Fanconi anemia complementation group G
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0013565
+  predicate_id: skos:exactMatch
+  object_id: NCIT:C125708
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: MONDO:0013565
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:614082
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group G
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: UMLS:C3468041
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0009213
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: DOID:0111087
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0009213
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0009213
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111087
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: Fanconi anemia complementation group C
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:0111087
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: MONDO:0009213
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111087
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: Fanconi anemia complementation group C
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0009213
+  predicate_id: skos:narrowMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0009213
+  predicate_id: skos:exactMatch
+  object_id: NCIT:C125704
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: MONDO:0009213
+  predicate_id: skos:exactMatch
+  object_id: DOID:0111087
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: Fanconi anemia complementation group C
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0009213
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3468041
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0009213
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C3468041
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0009213
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0009213
+  predicate_id: skos:closeMatch
+  object_id: DOID:0111087
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: Fanconi anemia complementation group C
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0009213
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C125704
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: EFO
+- subject_id: UMLS:C3468041
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C125704
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: NCIT
+  mapping_provider: UMLS
+- subject_id: UMLS:C3468041
+  predicate_id: skos:closeMatch
+  object_id: OMIM:227645
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0009213
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C3468041
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0009213
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C3468041
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia complementation group C
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: ICD9CM:284.09
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: ICD9CM:284.09
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.09
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: EFO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.09
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD9CM
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: ICD9CM:284.09
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: DOID:1342
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: congenital hypoplastic anemia
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: Orphanet:68383
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Rare constitutional aplastic anemia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.09
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: DOID:1342
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: congenital hypoplastic anemia
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:68383
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Rare constitutional aplastic anemia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: BAO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD9CM
+  mapping_provider: EFO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD9CM
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD9CM
+  mapping_provider: BAO
+- subject_id: Orphanet:68383
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Rare constitutional aplastic anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: Orphanet
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: Orphanet:68383
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Rare constitutional aplastic anemia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:68383
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Rare constitutional aplastic anemia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: EFO
+- subject_id: Orphanet:68383
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Rare constitutional aplastic anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: UMLS:C0949116
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: Anemia, Hypoplastic, Congenital
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: UMLS
+  object_source: MeSH
+  mapping_provider: UMLS
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: MeSH
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: MeSH
+  mapping_provider: BAO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: DOID:1342
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: congenital hypoplastic anemia
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: DOID:1342
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: congenital hypoplastic anemia
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD9CM
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: MeSH
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: BAO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0702159
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: BAO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: BAO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD9CM:284.0
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD9CM
+  mapping_provider: BAO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: MeSH
+  mapping_provider: BAO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: BAO
+- subject_id: MONDO:0015253
+  predicate_id: skos:exactMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: Diamond-Blackfan anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: DOID:1339
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: Diamond-Blackfan anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: DOID
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: Orphanet:124
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: Blackfan-Diamond anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: DOID:1339
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: Diamond-Blackfan anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: BAO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.01
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: BAO
+- subject_id: UMLS:C0949116
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D029502
+  match_type:
+  - Unspecified
+  subject_label: Anemia, Hypoplastic, Congenital
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: UMLS
+  object_source: MeSH
+  mapping_provider: UMLS
+- subject_id: MONDO:0001713
+  predicate_id: skos:exactMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: DOID
+- subject_id: DOID:1342
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0949116
+  match_type:
+  - Unspecified
+  subject_label: congenital hypoplastic anemia
+  object_label: Anemia, Hypoplastic, Congenital
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: BAO
+- subject_id: UMLS:C0015625
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi Anemia
+  object_label: ''
+  subject_source: UMLS
+  object_source: NCIT
+  mapping_provider: UMLS
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: NCIT
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: NCIT
+  mapping_provider: BAO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: NCIT
+  mapping_provider: EFO
+- subject_id: MONDO:0019391
+  predicate_id: skos:exactMatch
+  object_id: DOID:13636
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: MONDO
+  object_source: DOID
+  mapping_provider: MONDO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: NCIT
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: OMIM:PS227650
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.09
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:84
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: DOID
+  object_source: Orphanet
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D005199
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: DOID
+  object_source: MeSH
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C62505
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: NCIT
+  mapping_provider: BAO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: OMIM:PS227650
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: BAO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.09
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: ICD10CM
+  mapping_provider: BAO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0015625
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: DOID
+  object_source: UMLS
+  mapping_provider: BAO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: MeSH:D005199
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi Anemia
+  subject_source: DOID
+  object_source: MeSH
+  mapping_provider: BAO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:84
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: DOID
+  object_source: Orphanet
+  mapping_provider: BAO
+- subject_id: Orphanet:84
+  predicate_id: skos:closeMatch
+  object_id: DOID:13636
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: Fanconi anemia
+  subject_source: Orphanet
+  object_source: DOID
+  mapping_provider: EFO
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: OMIM:PS227650
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: DOID
+- subject_id: DOID:13636
+  predicate_id: skos:closeMatch
+  object_id: OMIM:PS227650
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: DOID
+  object_source: OMIM
+  mapping_provider: BAO
+- subject_id: Orphanet:182040
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Aplastic anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:68383
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Rare constitutional aplastic anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:88
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Idiopathic aplastic anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: Orphanet
+- subject_id: MONDO:0013851
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0011469
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: congenital amegakaryocytic thrombocytopenia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0008038
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: ataxia-pancytopenia syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0008688
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: WT limb-blood syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0018045
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Hoyeraal-Hreidarsson syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0018340
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: hereditary isolated aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0015909
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0015253
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Diamond-Blackfan anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0019391
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Fanconi anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0014317
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: pancytopenia-developmental delay syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0018636
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: Orphanet:182040
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Aplastic anemia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: MONDO:0001713
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: inherited aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: MONDO:0013851
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:314399
+  match_type:
+  - Unspecified
+  subject_label: autosomal dominant aplasia and myelodysplasia
+  object_label: Autosomal dominant aplasia and myelodysplasia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: UMLS:CN203751
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C3808553
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: MONDO:0013851
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: autosomal dominant aplasia and myelodysplasia
+  subject_source: Orphanet
+  object_source: MONDO
+  mapping_provider: EFO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614675
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614675
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: Orphanet
+- subject_id: UMLS:C3808553
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614675
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0013851
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614675
+  match_type:
+  - Unspecified
+  subject_label: autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614675
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614675
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: UMLS:C3808553
+  predicate_id: skos:closeMatch
+  object_id: OMIM:614675
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0013851
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C3808553
+  match_type:
+  - Unspecified
+  subject_label: autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C3808553
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0013851
+  predicate_id: skos:closeMatch
+  object_id: UMLS:CN203751
+  match_type:
+  - Unspecified
+  subject_label: autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: Orphanet:314399
+  predicate_id: skos:closeMatch
+  object_id: UMLS:CN203751
+  match_type:
+  - Unspecified
+  subject_label: Autosomal dominant aplasia and myelodysplasia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0008038
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:2585
+  match_type:
+  - Unspecified
+  subject_label: ataxia-pancytopenia syndrome
+  object_label: Ataxia - pancytopenia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1327919
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563233
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: OMIM:159550
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: MONDO:0008038
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ataxia-pancytopenia syndrome
+  subject_source: Orphanet
+  object_source: MONDO
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: OMIM:159550
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: Orphanet
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1327919
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: Orphanet
+- subject_id: UMLS:C1327919
+  predicate_id: skos:closeMatch
+  object_id: OMIM:159550
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: MONDO:0008038
+  predicate_id: skos:closeMatch
+  object_id: OMIM:159550
+  match_type:
+  - Unspecified
+  subject_label: ataxia-pancytopenia syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: OMIM:159550
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: OMIM:159550
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: OMIM
+  mapping_provider: Orphanet
+- subject_id: UMLS:C1327919
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563233
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: MeSH
+  mapping_provider: UMLS
+- subject_id: MONDO:0008038
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563233
+  match_type:
+  - Unspecified
+  subject_label: ataxia-pancytopenia syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: MONDO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563233
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: UMLS:C1327919
+  predicate_id: skos:closeMatch
+  object_id: OMIM:159550
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: OMIM
+  mapping_provider: UMLS
+- subject_id: UMLS:C1327919
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C563233
+  match_type:
+  - Unspecified
+  subject_label: ''
+  object_label: ''
+  subject_source: UMLS
+  object_source: MeSH
+  mapping_provider: UMLS
+- subject_id: MONDO:0008038
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1327919
+  match_type:
+  - Unspecified
+  subject_label: ataxia-pancytopenia syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1327919
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: Orphanet:2585
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C1327919
+  match_type:
+  - Unspecified
+  subject_label: Ataxia - pancytopenia
+  object_label: ''
+  subject_source: Orphanet
+  object_source: UMLS
+  mapping_provider: Orphanet
+- subject_id: MONDO:0018636
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0018636
+  predicate_id: skos:exactMatch
+  object_id: UMLS:CN237691
+  match_type:
+  - Unspecified
+  subject_label: autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0018636
+  predicate_id: skos:exactMatch
+  object_id: Orphanet:444463
+  match_type:
+  - Unspecified
+  subject_label: autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  object_label: Autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: MONDO:0018636
+  predicate_id: skos:exactMatch
+  object_id: Orphanet:444463
+  match_type:
+  - Unspecified
+  subject_label: autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  object_label: Autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: Orphanet:444463
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: Autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  object_label: ''
+  subject_source: Orphanet
+  object_source: ICD10CM
+  mapping_provider: Orphanet
+- subject_id: MONDO:0018636
+  predicate_id: skos:exactMatch
+  object_id: UMLS:CN237691
+  match_type:
+  - Unspecified
+  subject_label: autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency
+    syndrome
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:88
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: Idiopathic aplastic anemia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0348890
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609135
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C538494
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C61230
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.3
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: MONDO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: OMIM:609135
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: OMIM
+  mapping_provider: EFO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: MeSH:C538494
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: MeSH
+  mapping_provider: EFO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: UMLS:C0348890
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: UMLS
+  mapping_provider: EFO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: Orphanet:88
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: Idiopathic aplastic anemia
+  subject_source: MONDO
+  object_source: Orphanet
+  mapping_provider: EFO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: NCIT:C61230
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: NCIT
+  mapping_provider: EFO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.0
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: EFO
+- subject_id: MONDO:0012197
+  predicate_id: skos:closeMatch
+  object_id: ICD10CM:D61.3
+  match_type:
+  - Unspecified
+  subject_label: idiopathic aplastic anemia
+  object_label: ''
+  subject_source: MONDO
+  object_source: ICD10CM
+  mapping_provider: EFO
