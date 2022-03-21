@@ -3,6 +3,8 @@ metamodel/metamodel.py-PREV
 temp/
 output/
 
+__pycache__
+
 # sphinx
 docs/_sources
 docs/_modules
