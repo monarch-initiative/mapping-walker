@@ -9,12 +9,7 @@
     "excludeSingletons": "true",
     "relationProperties": {
         "rdfs:subClassOf": {
-            "color": "black",
-            "arrowhead": "open",
-            "label": ""
-        },
-        "is_a": {
-            "color": "black",
+            "color": "lightgrey",
             "arrowhead": "open",
             "label": ""
         },

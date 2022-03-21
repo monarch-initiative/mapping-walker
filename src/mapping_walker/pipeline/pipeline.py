@@ -8,6 +8,7 @@ from typing import TextIO, Union, List
 
 import click
 import yaml
+from mapping_walker.utils.sssom_utils import get_iri_from_curie, save_mapping_set_doc, fix_prefixes
 from mapping_walker.walkers.endpoints import OxoEndpoint
 from mapping_walker.walkers.mapping_walker import MappingWalker
 from rdflib import Graph, URIRef, RDFS, Literal
@@ -16,9 +17,11 @@ from sssom.sssom_document import MappingSetDocument
 from sssom.util import to_mapping_set_dataframe, dataframe_to_ptable, collapse
 from mapping_walker.pipeline.pipeline_config import PipelineConfiguration, EndpointConfiguration, EndpointEnum
 
+
 PTABLE = 'ptable.tsv'
 ONTOLOGY = 'ontology.ttl'
 PREFIXES = 'prefixes.yaml'
+SSSOM = 'sssom.yaml'
 
 
 @dataclass
@@ -34,6 +37,13 @@ class Pipeline:
     mappings_file: str = None
 
     def run(self, curies: Union[str, List[str]]) -> BoomerResult:
+        """
+        Queries endpoints to walk mapping graph, then
+        runs boomer
+
+        :param curies: one or more CURIEs to use as seed in search
+        :return:
+        """
         wd = self._workdir
         wd.mkdir(exist_ok=True)
         walker = MappingWalker()
@@ -43,13 +53,19 @@ class Pipeline:
             else:
                 raise NotImplementedError(f'Not implemented; {ec.type}')
             walker.endpoints.append(endpoint)
+        logging.info(f'Endpoints = {walker.endpoints}')
         msdoc = walker.walk(curies)
+        fix_prefixes(msdoc)
+        walker.fill_gaps(msdoc)
+        self.prep_boomer(msdoc)
+
+    def prep_boomer(self, msdoc: MappingSetDocument):
         wd = Path(self.configuration.working_directory)
+        save_mapping_set_doc(msdoc, str(self._sssom_path))
         self.write_ptable(msdoc, self._ptable)
-        self.write_ontology(msdoc, self._ontology_path)
+        self.write_ontology(msdoc, str(self._ontology_path))
         self.write_prefixmap(msdoc, self._prefixes_path)
         return self.run_boomer()
-
 
     @property
     def _workdir(self) -> Path:
@@ -62,6 +78,10 @@ class Pipeline:
     @property
     def _ontology_path(self) -> Path:
         return self._workdir / ONTOLOGY
+
+    @property
+    def _sssom_path(self) -> Path:
+        return self._workdir / SSSOM
 
     @property
     def _prefixes_path(self) -> Path:
@@ -122,6 +142,9 @@ class Pipeline:
         for mapping in doc.mapping_set.mappings:
             if not mapping.confidence:
                 mapping.confidence = 0.8
+            # TODO: fix bug
+            if mapping.predicate_id == 'rdfs:subClassOf':
+                mapping.predicate_id = 'skos:broadMatch'
         msdf = to_mapping_set_dataframe(doc)
         df = collapse(msdf.df)
         rows = dataframe_to_ptable(df)
@@ -139,20 +162,10 @@ class Pipeline:
         """
         g = Graph()
         mapping_set = doc.mapping_set
-        def get_iri(curie: str) -> URIRef:
-            #print(f'C={curie}')
-            if ':' not in curie:
-                raise ValueError(f'BASE: {curie}')
-            pfx, local = curie.split(':', 2)
-            if pfx in doc.prefix_map:
-                uri_base = doc.prefix_map[pfx]
-            else:
-                uri_base = f'http://purl.obolibrary.org/obo/{pfx}_'
-                doc.prefix_map[pfx] = uri_base
-            return URIRef(f'{uri_base}{local}')
         def add_label(curie: str, label: str):
-            iri = get_iri(curie)
-            g.add((iri, RDFS.label, Literal(label)))
+            iri = get_iri_from_curie(curie, doc)
+            if label:
+                g.add((iri, RDFS.label, Literal(label)))
         for mapping in mapping_set.mappings:
             add_label(mapping.subject_id, mapping.subject_label)
             add_label(mapping.object_id, mapping.object_label)
@@ -166,6 +179,7 @@ class Pipeline:
                 yaml.dump(doc.prefix_map, stream=stream)
 
 @click.command()
+@click.option("-v", "--verbose", count=True)
 @click.option('--stylesheet',
               '-C',
               default='conf/style.json',
@@ -176,7 +190,17 @@ class Pipeline:
               help="directory in which to store intermediate and result files"
               )
 @click.argument('curies', nargs=-1)
-def main(curies, working_directory, stylesheet):
+def main(curies, verbose: int, working_directory, stylesheet):
+    """
+    Crawls one or more endpoints from a seed set of CURIEs, walking the mapping graph,
+    then run boomer on results
+    """
+    if verbose >= 2:
+        logging.basicConfig(level=logging.DEBUG)
+    elif verbose == 1:
+        logging.basicConfig(level=logging.INFO)
+    else:
+        logging.basicConfig(level=logging.WARNING)
     curies = list(curies)
     if working_directory is None:
         working_directory = Path('output') / '-'.join(curies)

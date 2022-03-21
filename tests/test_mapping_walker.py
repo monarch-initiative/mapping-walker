@@ -11,7 +11,7 @@ CURIE = 'UBERON:0013141'
 
 def test_pipeline():
     """
-    test end to end pipeline
+    test end to end pipeline, using OxO endpoint
     :return:
     """
     ec = EndpointConfiguration(type=EndpointEnum.OxO)
@@ -21,4 +21,5 @@ def test_pipeline():
     pipeline = Pipeline(configuration=conf)
     result = pipeline.run(CURIE)
     print(f'PNGS={result.pngs}')
+    assert len(result.pngs) == 2
 

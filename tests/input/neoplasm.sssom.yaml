@@ -1,0 +1,3159 @@
+mapping_set:
+  comment: 'Complete: False Visited: 100 Seed: [''MONDO:0007254''] Max Distance
+    Reached: (4, ''UMLS:C1134719'')'
+  license: http://example.org
+  mapping_set_id: TODO
+  mappings:
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C9335
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:1612
+    object_label: breast cancer
+    object_source: DOID
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50-C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C9335
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:1612
+    object_label: breast cancer
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50-C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0153555
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: EFO:0000186
+    object_label: invasive breast ductal carcinoma
+    object_source: EFO
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:3008
+    object_label: invasive ductal carcinoma
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0004953
+    object_label: invasive ductal breast carcinoma
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1134719
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:3008
+    object_label: invasive ductal carcinoma
+    object_source: DOID
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:3008
+    object_label: invasive ductal carcinoma
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:58477004
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1527349
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4017
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:408643008
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1134719
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D018270
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1527349
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1134719
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: MeSH:D018270
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4017
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3008
+    subject_label: invasive ductal carcinoma
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: EFO:1000382
+    object_label: Mixed Lobular and Ductal Breast Carcinoma
+    object_source: EFO
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0334384
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0006306
+    object_label: mixed lobular and ductal breast carcinoma
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0334384
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0334384
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0334384
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0334384
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4194
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:3008
+    object_label: invasive ductal carcinoma
+    object_source: DOID
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: EFO:0000186
+    object_label: invasive breast ductal carcinoma
+    object_source: EFO
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004953
+    subject_label: invasive ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0004953
+    object_label: invasive ductal breast carcinoma
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000186
+    subject_label: invasive breast ductal carcinoma
+    subject_source: EFO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:7843
+    object_label: female breast carcinoma
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:0050671
+    object_label: female breast cancer
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.9
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.9
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:0050671
+    object_label: female breast cancer
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:7843
+    object_label: female breast carcinoma
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.9
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.9
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0007104
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:0050671
+    object_label: female breast cancer
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:0050671
+    object_label: female breast cancer
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0007104
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:7843
+    object_label: female breast carcinoma
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:7843
+    object_label: female breast carcinoma
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004379
+    subject_label: female breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2918
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0007104
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:7843
+    subject_label: female breast carcinoma
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0334384
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C5160
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: EFO:1000382
+    object_label: Mixed Lobular and Ductal Breast Carcinoma
+    object_source: EFO
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006306
+    subject_label: mixed lobular and ductal breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0006306
+    object_label: mixed lobular and ductal breast carcinoma
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000382
+    subject_label: Mixed Lobular and Ductal Breast Carcinoma
+    subject_source: EFO
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0153555
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0153555
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50-C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50-C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50-C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: DOID:1612
+    object_label: breast cancer
+    object_source: DOID
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:1612
+    object_label: breast cancer
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1458155
+    object_label: Breast Neoplasms
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:126926005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: OMIM:605365
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:254837009
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0153555
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:174.8
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50-C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:190121004
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:154521006
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0006142
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: OMIM:600048
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:269595005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C9335
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:narrowMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:narrowMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: EFO:0000305
+    object_label: breast carcinoma
+    object_source: EFO
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0004989
+    subject_label: breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: EFO:0000305
+    object_label: breast carcinoma
+    object_source: EFO
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3459
+    subject_label: breast carcinoma
+    subject_source: DOID
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:D05
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4872
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0678222
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4872
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:254838004
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0004989
+    object_label: breast carcinoma
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:3459
+    object_label: breast carcinoma
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:615554
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: EFO:0000305
+    object_label: breast carcinoma
+    object_source: EFO
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3459
+    subject_label: breast carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: EFO:0000305
+    object_label: breast carcinoma
+    object_source: EFO
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3459
+    subject_label: breast carcinoma
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: EFO:0003869
+    object_label: breast neoplasm
+    object_source: EFO
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0021100
+    subject_label: breast neoplasm
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: HP:0100013
+    object_label: Neoplasm of the breast
+    object_source: HP
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD9CM:239.3
+    object_label: ''
+    object_source: ICD9CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:D24
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:CN236627
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0021100
+    object_label: breast neoplasm
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: Orphanet:227535
+    object_label: Hereditary breast cancer
+    object_source: Orphanet
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.4
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.3
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:C562840
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:600048
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.0
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4503
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:605365
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0016419
+    object_label: hereditary breast carcinoma
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.5
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:612555
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.8
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.6
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.1
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.2
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:613399
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0346153
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:604370
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.6
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.8
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0346153
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.5
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:narrowMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C4503
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.1
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: MeSH:C562840
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.3
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.2
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: Orphanet:227535
+    object_label: Hereditary breast cancer
+    object_source: Orphanet
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.4
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50.0
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016419
+    subject_label: hereditary breast carcinoma
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0016419
+    object_label: hereditary breast carcinoma
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0678222
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1458155
+    subject_label: Breast Neoplasms
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0021100
+    subject_label: breast neoplasm
+    subject_source: MONDO
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3459
+    subject_label: breast carcinoma
+    subject_source: DOID
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0000305
+    subject_label: breast carcinoma
+    subject_source: EFO
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: HP:0003002
+    subject_label: Breast carcinoma
+    subject_source: HP
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:3459
+    subject_label: breast carcinoma
+    subject_source: DOID
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: HP:0100013
+    subject_label: Neoplasm of the breast
+    subject_source: HP
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: HP:0003002
+    object_label: Breast carcinoma
+    object_source: HP
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0678222
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: HP:0003002
+    subject_label: Breast carcinoma
+    subject_source: HP
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0678222
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: HP:0003002
+    subject_label: Breast carcinoma
+    subject_source: HP
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:254838004
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: HP:0003002
+    subject_label: Breast carcinoma
+    subject_source: HP
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2916
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: HP:0003002
+    subject_label: Breast carcinoma
+    subject_source: HP
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:269595005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:269595005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:600048
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: OMIM:600048
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: OMIM:114480
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:269595005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:154521006
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:254837009
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C9335
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:190121004
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0006142
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:180257
+    subject_label: Rare malignant breast tumor
+    subject_source: Orphanet
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0006142
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0006142
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0006142
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0006142
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:180257
+    subject_label: Rare malignant breast tumor
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0678222
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:180257
+    subject_label: Rare malignant breast tumor
+    subject_source: Orphanet
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1458155
+    subject_label: Breast Neoplasms
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0021100
+    subject_label: breast neoplasm
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:154521006
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:154521006
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:190121004
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:190121004
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:254837009
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0006142
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:254837009
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:605365
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: OMIM:605365
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:126926005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1458155
+    subject_label: Breast Neoplasms
+    subject_source: UMLS
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:126926005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:126926005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: HP:0100013
+    subject_label: Neoplasm of the breast
+    subject_source: HP
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: MeSH:D001943
+    object_label: Breast Neoplasms
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1458155
+    subject_label: Breast Neoplasms
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: NCIT:C2910
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1458155
+    subject_label: Breast Neoplasms
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: SNOMEDCT:126926005
+    object_label: ''
+    object_source: SNOMEDCT
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1458155
+    subject_label: Breast Neoplasms
+    subject_source: UMLS
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: HP:0100013
+    object_label: Neoplasm of the breast
+    object_source: HP
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C1458155
+    subject_label: Breast Neoplasms
+    subject_source: UMLS
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1458155
+    object_label: Breast Neoplasms
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:180250
+    subject_label: Rare breast tumor
+    subject_source: Orphanet
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1458155
+    object_label: Breast Neoplasms
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: HP
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1458155
+    object_label: Breast Neoplasms
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: HP:0100013
+    subject_label: Neoplasm of the breast
+    subject_source: HP
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: UMLS:C1458155
+    object_label: Breast Neoplasms
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:180250
+    subject_label: Rare breast tumor
+    subject_source: Orphanet
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0003582
+    subject_label: hereditary breast ovarian cancer syndrome
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0016266
+    subject_label: squamous cell carcinoma of the corpus uteri
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0016267
+    subject_label: undifferentiated carcinoma of the corpus uteri
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:227535
+    subject_label: Hereditary breast cancer
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0007254
+    subject_label: breast cancer
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:0003869
+    subject_label: breast neoplasm
+    subject_source: EFO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: CLO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:213721
+    subject_label: Undifferentiated carcinoma of the corpus uteri
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:1612
+    subject_label: breast cancer
+    subject_source: DOID
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: Orphanet:213721
+    object_label: Undifferentiated carcinoma of the corpus uteri
+    object_source: Orphanet
+    predicate_id: skos:closeMatch
+    subject_id: MONDO:0016267
+    subject_label: undifferentiated carcinoma of the corpus uteri
+    subject_source: MONDO
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:213721
+    subject_label: Undifferentiated carcinoma of the corpus uteri
+    subject_source: Orphanet
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: Orphanet:145
+    object_label: Hereditary breast and ovarian cancer syndrome
+    object_source: Orphanet
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0003582
+    subject_label: hereditary breast ovarian cancer syndrome
+    subject_source: MONDO
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:614291
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0677776
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: NCIT:C8493
+    object_label: ''
+    object_source: NCIT
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:613399
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: DOID:5683
+    object_label: hereditary breast ovarian cancer syndrome
+    object_source: DOID
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D061325
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:604370
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MONDO:0003582
+    object_label: hereditary breast ovarian cancer syndrome
+    object_source: MONDO
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: OMIM:612555
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: OMIM:614291
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: OMIM:604370
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: UMLS:C0677776
+    object_label: ''
+    object_source: UMLS
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: OMIM:613399
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: OMIM:612555
+    object_label: ''
+    object_source: OMIM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C50
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: UMLS
+    match_type:
+    - Unspecified
+    object_id: MeSH:D061325
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: UMLS:C0677776
+    subject_label: ''
+    subject_source: UMLS
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D061325
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0003582
+    subject_label: hereditary breast ovarian cancer syndrome
+    subject_source: MONDO
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: MeSH:D061325
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:5683
+    subject_label: hereditary breast ovarian cancer syndrome
+    subject_source: DOID
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D061325
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:145
+    subject_label: Hereditary breast and ovarian cancer syndrome
+    subject_source: Orphanet
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: MeSH:D061325
+    object_label: ''
+    object_source: MeSH
+    predicate_id: skos:closeMatch
+    subject_id: DOID:5683
+    subject_label: hereditary breast ovarian cancer syndrome
+    subject_source: DOID
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:213517
+    subject_label: Familial ovarian cancer
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:213504
+    subject_label: Adenocarcinoma of ovary
+    subject_source: Orphanet
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006045
+    subject_label: ovarian clear cell adenocarcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0018369
+    subject_label: immature ovarian teratoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0006335
+    subject_label: ovarian endometrioid adenocarcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0018172
+    subject_label: malignant sex cord stromal tumor of ovary
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0018171
+    subject_label: malignant germ cell tumor of ovary
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0003582
+    subject_label: hereditary breast ovarian cancer syndrome
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0003795
+    subject_label: ovarian small cell carcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0008170
+    subject_label: ovarian cancer
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0005744
+    subject_label: yolk sac tumor
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0005601
+    subject_label: ovarian mucinous adenocarcinoma
+    subject_source: MONDO
+  - mapping_provider: MONDO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:exactMatch
+    subject_id: MONDO:0017327
+    subject_label: primary non-gestational choriocarcinoma of ovary
+    subject_source: MONDO
+  - mapping_provider: OHPI
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:2394
+    subject_label: ovarian cancer
+    subject_source: DOID
+  - mapping_provider: OHPI
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:2394
+    subject_label: ovarian cancer
+    subject_source: DOID
+  - mapping_provider: BAO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:2394
+    subject_label: ovarian cancer
+    subject_source: DOID
+  - mapping_provider: DOID
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: DOID:2394
+    subject_label: ovarian cancer
+    subject_source: DOID
+  - mapping_provider: EFO
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: EFO:1000412
+    subject_label: Ovarian Carcinosarcoma
+    subject_source: EFO
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:35807
+    subject_label: Malignant germ cell tumor of ovary
+    subject_source: Orphanet
+  - mapping_provider: Orphanet
+    match_type:
+    - Unspecified
+    object_id: ICD10CM:C56
+    object_label: ''
+    object_source: ICD10CM
+    predicate_id: skos:closeMatch
+    subject_id: Orphanet:35808
+    subject_label: Malignant sex cord stromal tumor of ovary
+    subject_source: Orphanet
+prefix_map:
+  DOID: http://purl.obolibrary.org/obo/DOID_
+  EFO: http://www.ebi.ac.uk/efo/EFO_
+  HP: http://purl.obolibrary.org/obo/HP_
+  ICD10CM: 'http://identifiers.org/ICD10CM:'
+  ICD9CM: 'http://identifiers.org/ICD9CM:'
+  MONDO: http://purl.obolibrary.org/obo/MONDO_
+  MeSH: 'http://identifiers.org/MeSH:'
+  NCIT: http://purl.obolibrary.org/obo/NCIT_
+  OMIM: 'http://identifiers.org/OMIM:'
+  Orphanet: http://www.orpha.net/ORDO/Orphanet_
+  SNOMEDCT: 'http://identifiers.org/SNOMEDCT:'
+  UMLS: 'http://identifiers.org/UMLS:'

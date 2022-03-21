@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from mapping_walker.utils.sssom_utils import save_mapping_set_doc, get_iri_from_curie
+
 from tests import INPUT_DIR, OUTPUT_DIR
 
 from linkml_runtime.dumpers import yaml_dumper
@@ -12,9 +14,14 @@ from mapping_walker.walkers.mapping_walker import MappingWalker
 from mapping_walker import __version__
 from mapping_walker.ext_schemas.oxo import Container
 
+OUT_FILE = Path(OUTPUT_DIR) / 'uberon-oxo-result.yaml'
 
 def test_oxo_endpoint():
     endpoint = OxoEndpoint()
-    mapping_set = endpoint.get_direct_mappings('UBERON:0013141')
-    print(yaml_dumper.dumps(mapping_set))
+    msdoc = endpoint.get_direct_mappings('UBERON:0013141')
+    #print(yaml_dumper.dumps(msdoc.mapping_set))
+    save_mapping_set_doc(msdoc, OUT_FILE)
+    for m in msdoc.mapping_set.mappings:
+        uri = get_iri_from_curie(m.object_id, msdoc)
+        print(f'{m.object_id} = {uri}')
 

@@ -7,6 +7,7 @@ authors = ["cmungall <cjm@berkeleybop.org>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 sssom = "^0.3.7"
+bioregistry = "^0.4.76"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -16,4 +17,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-mapcrawl = "mapping_walker.pipeline.pipeline"
+mapcrawl = "mapping_walker.pipeline.pipeline:main"

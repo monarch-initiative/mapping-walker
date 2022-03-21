@@ -23,16 +23,22 @@ types:
     typeof: string
 classes:
   BoomerConfiguration:
+    description: >-
+      A configuration for boomer command line options
     attributes:
       runs:
         range: MaximumCount
       window:
         range: MaximumCount
   EndpointConfiguration:
+    description: >-
+      A configuration for a mapping endpoint
     attributes:
       type:
         range: EndpointEnum
   PipelineConfiguration:
+    description: >-
+      A configuration for a pipeline
     attributes:
       endpoint_configurations:
         range: EndpointConfiguration
@@ -40,12 +46,20 @@ classes:
         inlined: true
         inlined_as_list: true
       max_clique_size:
+        description: >-
+          Limit to size of clique to build when iteratively querying endpoints
         range: MaximumCount
       max_hops:
+        description: >-
+          Maximum distance from seed nodes when iteratively querying endpoints
         range: MaximumCount
       working_directory:
+        description: >-
+          folder in which to store working files
         range: Directory
       stylesheet:
+        description: >-
+          path to an obographviz json stylesheet
         range: FilePath
       boomer_configuration:
         range: BoomerConfiguration
