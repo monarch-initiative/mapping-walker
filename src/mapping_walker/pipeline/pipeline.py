@@ -45,7 +45,7 @@ class Pipeline:
         :return:
         """
         wd = self._workdir
-        wd.mkdir(exist_ok=True)
+        wd.mkdir(exist_ok=True, parents=True)
         walker = MappingWalker()
         for ec in self.configuration.endpoint_configurations:
             if str(ec.type) == str(EndpointEnum.OxO.text):
@@ -57,7 +57,7 @@ class Pipeline:
         msdoc = walker.walk(curies)
         fix_prefixes(msdoc)
         walker.fill_gaps(msdoc)
-        self.prep_boomer(msdoc)
+        return self.prep_boomer(msdoc)
 
     def prep_boomer(self, msdoc: MappingSetDocument):
         wd = Path(self.configuration.working_directory)
