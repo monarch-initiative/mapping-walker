@@ -12,8 +12,17 @@ __THIS IS ALPHA SOFTWARE__
 
 You need the following on your path:
 
- - boomer
- - og2dot
+ - [graphviz](https://graphviz.org/)
+ - [boomer](https://incatools.github.io/boomer/)
+ - [og2dot](https://github.com/cmungall/obographviz)
+
+On MacOS you may need to install openblas via homebrew and set the `OPENBLAS` environment variable before installing dependencies:
+
+```
+brew install openblas
+export OPENBLAS="$(brew --prefix openblas)"
+poetry install
+```
 
 ## Running
 
