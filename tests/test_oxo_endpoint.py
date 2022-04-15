@@ -27,4 +27,7 @@ class TestOxOEndpoint(unittest.TestCase):
         for m in msdoc.mapping_set.mappings:
             uri = get_iri_from_curie(m.object_id, msdoc)
             print(f'{m.object_id} = {uri}')
+        
+        assert any(mapping for mapping in msdoc.mapping_set.mappings if mapping.object_id == 'FMA:45632')
+        assert msdoc.prefix_map['FMA']
 
