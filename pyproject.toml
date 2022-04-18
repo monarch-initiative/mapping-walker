@@ -8,6 +8,7 @@ authors = ["cmungall <cjm@berkeleybop.org>"]
 python = "^3.9"
 sssom = "^0.3.7"
 bioregistry = "^0.4.76"
+oaklib = "^0.1.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

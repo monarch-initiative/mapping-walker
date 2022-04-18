@@ -1,23 +1,16 @@
 import logging
 from dataclasses import dataclass, field
-from typing import Union, Dict, List
+from typing import Dict, List, Union
 
-import requests
-import urllib
-from mapping_walker.ext_schemas.oxo import Container, OntologyIdentifier, ScopeEnum
-from mapping_walker.utils.oxo_utils import load_oxo_payload
-from mapping_walker.utils.sssom_utils import all_curies_in_doc, get_iri_from_curie, curie_to_uri_map
-from sssom.sssom_datamodel import MappingSet, Mapping, MatchTypeEnum
-
-from mapping_walker.pipeline.pipeline_config import PipelineConfiguration, EndpointConfiguration
+from oaklib.datamodels.vocabulary import IS_A
+from oaklib.implementations.ols.ols_implementation import OlsImplementation
+from sssom.sssom_datamodel import Mapping, MappingSet, MatchTypeEnum
 from sssom.sssom_document import MappingSetDocument
 
-oxo_pred_mappings = {
-    ScopeEnum.EXACT.text: 'skos:exactMatch',
-    ScopeEnum.BROADER.text: 'skos:broadMatch',
-    ScopeEnum.NARROWER.text: 'skos:narrowMatch',
-    ScopeEnum.RELATED.text: 'skos:closeMatch',
-}
+from mapping_walker.ext_schemas.oxo import OntologyIdentifier, ScopeEnum
+from mapping_walker.pipeline.pipeline_config import EndpointConfiguration
+from mapping_walker.utils.sssom_utils import curie_to_uri_map
+
 
 @dataclass
 class Endpoint:
@@ -47,52 +40,21 @@ class Endpoint:
 
 @dataclass
 class OxoEndpoint(Endpoint):
-    base_url = "https://www.ebi.ac.uk/spot/oxo/api/mappings"
-    ols_base_url = "https://www.ebi.ac.uk/ols/api/ontologies/"
 
+    def __post_init__(self):
+        self.ols = OlsImplementation()
+    
     def get_direct_mappings(self, curie: Union[str, OntologyIdentifier]) -> MappingSetDocument:
-        result = requests.get(self.base_url, params=dict(fromId=curie))
-        obj = result.json()
-        container = load_oxo_payload(obj)
-        return self.convert_payload(container)
-
-    def convert_payload(self, container: Container) -> MappingSetDocument:
-        oxo_mappings = container._embedded.mappings
-        mappings: Mapping = []
-        for oxo_mapping in oxo_mappings:
-            oxo_s = oxo_mapping.fromTerm
-            oxo_o = oxo_mapping.toTerm
-            mapping = Mapping(subject_id=oxo_s.curie,
-                              subject_label=oxo_s.label,
-                              subject_source=oxo_s.datasource.prefix if oxo_s.datasource else None,
-                              predicate_id=oxo_pred_mappings[str(oxo_mapping.scope)],
-                              match_type=MatchTypeEnum.Unspecified,
-                              object_id=oxo_o.curie,
-                              object_label=oxo_o.label,
-                              object_source=oxo_o.datasource.prefix if oxo_o.datasource else None,
-                              mapping_provider=oxo_mapping.datasource.prefix)
-            self.add_prefix(oxo_s.curie, oxo_s.uri)
-            self.add_prefix(oxo_o.curie, oxo_o.uri)
-            mappings.append(mapping)
-        ms = MappingSet(mapping_set_id=container._links.link_to_self.href,
+        mappings = list(self.ols.get_sssom_mappings_by_curie(curie))
+        ms = MappingSet(mapping_set_id=OlsImplementation.base_url,
                           license='http://example.org/mixed',
                           mappings=mappings)
         return MappingSetDocument(mapping_set=ms,
-                                  prefix_map=self.prefix_map)
+                prefix_map=self.ols.get_prefix_map())
 
     def get_ancestors(self, term_id: str, ontology: str = None) -> List[str]:
-        # must be double encoded https://www.ebi.ac.uk/ols/docs/api
-        term_id_quoted = urllib.parse.quote(term_id, safe='')
-        term_id_quoted = urllib.parse.quote(term_id_quoted, safe='')
-        url = f'{self.ols_base_url}{ontology}/terms/{term_id_quoted}/ancestors'
-        logging.debug(f'URL={url}')
-        result = requests.get(url)
-        obj = result.json()
-        if result.status_code == 200 and '_embedded' in obj:
-            ancs = [x['obo_id'] for x in obj['_embedded']['terms']]
-        else:
-            logging.debug(f'No ancestors for {url} (maybe ontology not indexed in OLS?)')
-            ancs = []
+        self.ols.focus_ontology = ontology
+        ancs = self.ols.ancestors(term_id, predicates=[IS_A])
         return ancs
 
     def fill_gaps(self, msdoc: MappingSetDocument, confidence: float = 1.0) -> int:

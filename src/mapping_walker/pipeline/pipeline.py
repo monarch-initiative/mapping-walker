@@ -137,7 +137,7 @@ class Pipeline:
 
 
     def write_ptable(self, doc: MappingSetDocument, output: Union[Path, str, TextIO] = sys.stdout):
-        if not isinstance(output, TextIO):
+        if isinstance(output, Path) or isinstance(output, str):
             output = open(str(output), 'w', encoding='utf-8')
         for mapping in doc.mapping_set.mappings:
             if not mapping.confidence:
@@ -172,11 +172,11 @@ class Pipeline:
         g.serialize(destination=output)
 
     def write_prefixmap(self, doc: MappingSetDocument, output: Union[str, Path, TextIO] = sys.stdout):
-        if isinstance(output, TextIO):
-            yaml.dump(doc.prefix_map, stream=output)
-        else:
+        if isinstance(output, Path) or isinstance(output, str):
             with open(output, 'w', encoding='utf-8') as stream:
                 yaml.dump(doc.prefix_map, stream=stream)
+        else:
+            yaml.dump(doc.prefix_map, stream=output)
 
 @click.command()
 @click.option("-v", "--verbose", count=True)
