@@ -9,7 +9,7 @@ from typing import TextIO, Union, List
 import click
 import yaml
 from mapping_walker.utils.sssom_utils import get_iri_from_curie, save_mapping_set_doc, fix_prefixes
-from mapping_walker.walkers.endpoints import OxoEndpoint
+from mapping_walker.walkers.endpoints import BioportalEndpoint, OxoEndpoint
 from mapping_walker.walkers.mapping_walker import MappingWalker
 from rdflib import Graph, URIRef, RDFS, Literal
 from sssom import MappingSet
@@ -35,6 +35,7 @@ class Pipeline:
     """
     configuration: PipelineConfiguration = None
     mappings_file: str = None
+    mappings_file_contains_IRIs: bool = False
 
     def run(self, curies: Union[str, List[str]]) -> BoomerResult:
         """
@@ -50,12 +51,16 @@ class Pipeline:
         for ec in self.configuration.endpoint_configurations:
             if str(ec.type) == str(EndpointEnum.OxO.text):
                 endpoint = OxoEndpoint(configuration=ec)
+            elif str(ec.type) == str(EndpointEnum.BioPortal.text):
+                endpoint = BioportalEndpoint(configuration=ec)
+                self.mappings_file_contains_IRIs = True
             else:
                 raise NotImplementedError(f'Not implemented; {ec.type}')
             walker.endpoints.append(endpoint)
         logging.info(f'Endpoints = {walker.endpoints}')
         msdoc = walker.walk(curies)
-        fix_prefixes(msdoc)
+        if not self.mappings_file_contains_IRIs:
+            fix_prefixes(msdoc)
         walker.fill_gaps(msdoc)
         return self.prep_boomer(msdoc)
 
@@ -163,7 +168,10 @@ class Pipeline:
         g = Graph()
         mapping_set = doc.mapping_set
         def add_label(curie: str, label: str):
-            iri = get_iri_from_curie(curie, doc)
+            if self.mappings_file_contains_IRIs:
+                iri = curie
+            else:
+                iri = get_iri_from_curie(curie, doc)
             if label:
                 g.add((iri, RDFS.label, Literal(label)))
         for mapping in mapping_set.mappings:
@@ -189,8 +197,13 @@ class Pipeline:
               show_default=True,
               help="directory in which to store intermediate and result files"
               )
+@click.option('--endpoint',
+              '-E',
+              type=click.Choice([EndpointEnum.OxO.text, EndpointEnum.BioPortal.text], case_sensitive=False),
+              default=EndpointEnum.OxO.text,
+              help="endpoint to use to fetch mappings")
 @click.argument('curies', nargs=-1)
-def main(curies, verbose: int, working_directory, stylesheet):
+def main(curies, verbose: int, working_directory, stylesheet, endpoint):
     """
     Crawls one or more endpoints from a seed set of CURIEs, walking the mapping graph,
     then run boomer on results
@@ -204,7 +217,12 @@ def main(curies, verbose: int, working_directory, stylesheet):
     curies = list(curies)
     if working_directory is None:
         working_directory = Path('output') / '-'.join(curies)
-    ec = EndpointConfiguration(type=EndpointEnum.OxO)
+    
+    if endpoint == EndpointEnum.BioPortal.text:
+        ec = EndpointConfiguration(type=EndpointEnum.BioPortal)
+    if endpoint == EndpointEnum.OxO.text:
+        ec = EndpointConfiguration(type=EndpointEnum.OxO)
+    
     conf = PipelineConfiguration(working_directory=working_directory,
                                  stylesheet=stylesheet,
                                  endpoint_configurations=[ec])
