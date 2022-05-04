@@ -4,6 +4,7 @@ from typing import Dict, List, Union
 
 from oaklib.datamodels.vocabulary import IS_A
 from oaklib.implementations.ols.ols_implementation import OlsImplementation
+from oaklib.implementations.bioportal.bioportal_implementation import BioportalImplementation
 from sssom.sssom_datamodel import Mapping, MappingSet, MatchTypeEnum
 from sssom.sssom_document import MappingSetDocument
 
@@ -79,16 +80,46 @@ class OxoEndpoint(Endpoint):
         return n
 
 
-
-
-
-
-
-
-
 @dataclass
 class BioportalEndpoint(Endpoint):
-    pass ## TODO
+    
+    def __post_init__(self):
+        self.impl = BioportalImplementation()
+
+
+    def get_direct_mappings(self, curie: Union[str, OntologyIdentifier]) -> MappingSetDocument:
+        # BioPortal API returns a lot of redundant mappings; remove those here
+        mappings = []
+        for mapping in self.impl.get_sssom_mappings_by_curie(curie):
+            if mapping not in mappings:
+                mappings.append(mapping)
+        ms = MappingSet(mapping_set_id='http://data.bioontology.org/metadata/Mapping',
+                          license='http://example.org/mixed',
+                          mappings=mappings)
+        return MappingSetDocument(mapping_set=ms,
+                prefix_map=self.impl.get_prefix_map())
+
+
+    def fill_gaps(self, msdoc: MappingSetDocument, confidence: float = 1) -> int:
+        all_uris = set(
+            [m.subject_id for m in msdoc.mapping_set.mappings] + 
+            [m.object_id for m in msdoc.mapping_set.mappings])
+        n = 0
+        for uri in all_uris:
+            ancestors = self.impl.ancestors(uri)
+            logging.debug(f'{uri} ANCESTORS = {ancestors}')
+            for ancestor in ancestors:
+                if ancestor in all_uris:
+                    m = Mapping(subject_id=uri,
+                                object_id=ancestor,
+                                predicate_id='rdfs:subClassOf',
+                                confidence=confidence,
+                                match_type=MatchTypeEnum.HumanCurated
+                                )
+                    logging.info(f'Gap filled link: {m}')
+                    msdoc.mapping_set.mappings.append(m)
+                    n += 1
+        return n
 
 
 @dataclass
