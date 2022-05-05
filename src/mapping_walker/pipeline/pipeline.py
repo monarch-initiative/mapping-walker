@@ -142,19 +142,26 @@ class Pipeline:
 
 
     def write_ptable(self, doc: MappingSetDocument, output: Union[Path, str, TextIO] = sys.stdout):
-        if isinstance(output, Path) or isinstance(output, str):
-            output = open(str(output), 'w', encoding='utf-8')
-        for mapping in doc.mapping_set.mappings:
-            if not mapping.confidence:
-                mapping.confidence = 0.8
-            # TODO: fix bug
-            if mapping.predicate_id == 'rdfs:subClassOf':
-                mapping.predicate_id = 'skos:broadMatch'
-        msdf = to_mapping_set_dataframe(doc)
-        df = collapse(msdf.df)
-        rows = dataframe_to_ptable(df)
-        for row in rows:
-            output.write('\t'.join(row) + '\n')
+        try:
+            output = open(output, 'w', encoding='utf-8')
+        except TypeError:
+            # output already an I/O stream
+            pass
+
+        try:
+            for mapping in doc.mapping_set.mappings:
+                if not mapping.confidence:
+                    mapping.confidence = 0.8
+                # TODO: fix bug
+                if mapping.predicate_id == 'rdfs:subClassOf':
+                    mapping.predicate_id = 'skos:broadMatch'
+            msdf = to_mapping_set_dataframe(doc)
+            df = collapse(msdf.df)
+            rows = dataframe_to_ptable(df)
+            for row in rows:
+                output.write('\t'.join(row) + '\n')
+        finally:
+            output.close()
 
 
     def write_ontology(self, doc: MappingSetDocument, output: str):
