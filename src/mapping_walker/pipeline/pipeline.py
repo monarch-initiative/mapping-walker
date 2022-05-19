@@ -9,7 +9,7 @@ from typing import TextIO, Union, List
 import click
 import yaml
 from mapping_walker.utils.sssom_utils import get_iri_from_curie, save_mapping_set_doc, fix_prefixes
-from mapping_walker.walkers.endpoints import BioportalEndpoint, OxoEndpoint
+from mapping_walker.walkers.endpoints import BioportalEndpoint, LocalEndpoint, OxoEndpoint
 from mapping_walker.walkers.mapping_walker import MappingWalker
 from rdflib import Graph, URIRef, RDFS, Literal
 from sssom import MappingSet
@@ -54,6 +54,8 @@ class Pipeline:
             elif str(ec.type) == str(EndpointEnum.BioPortal.text):
                 endpoint = BioportalEndpoint(configuration=ec)
                 self.mappings_file_contains_IRIs = True
+            elif str(ec.type) == str(EndpointEnum.Local.text):
+                endpoint = LocalEndpoint(configuration=ec)
             else:
                 raise NotImplementedError(f'Not implemented; {ec.type}')
             walker.endpoints.append(endpoint)
@@ -202,8 +204,14 @@ class Pipeline:
               type=click.Choice([EndpointEnum.OxO.text, EndpointEnum.BioPortal.text], case_sensitive=False),
               default=EndpointEnum.OxO.text,
               help="endpoint to use to fetch mappings")
+@click.option('--input',
+              '-i',
+              help="Path to local ontology file. If provided, the --endpoint option will be ignored.")
+@click.option('--mappings',
+              '-m',
+              help="Path to SSSOM TSV file. Can be used in conjunction with --input option.")
 @click.argument('curies', nargs=-1)
-def main(curies, verbose: int, working_directory, stylesheet, endpoint):
+def main(curies, verbose: int, working_directory, stylesheet, endpoint, input, mappings):
     """
     Crawls one or more endpoints from a seed set of CURIEs, walking the mapping graph,
     then run boomer on results
@@ -218,10 +226,15 @@ def main(curies, verbose: int, working_directory, stylesheet, endpoint):
     if working_directory is None:
         working_directory = Path('output') / '-'.join(curies)
     
-    if endpoint == EndpointEnum.BioPortal.text:
-        ec = EndpointConfiguration(type=EndpointEnum.BioPortal)
-    if endpoint == EndpointEnum.OxO.text:
-        ec = EndpointConfiguration(type=EndpointEnum.OxO)
+    if input:
+        ec = EndpointConfiguration(type=EndpointEnum.Local,
+                                   input=input,
+                                   mappings=mappings)
+    elif endpoint:
+        if endpoint == EndpointEnum.BioPortal.text:
+            ec = EndpointConfiguration(type=EndpointEnum.BioPortal)
+        if endpoint == EndpointEnum.OxO.text:
+            ec = EndpointConfiguration(type=EndpointEnum.OxO)
     
     conf = PipelineConfiguration(working_directory=working_directory,
                                  stylesheet=stylesheet,
