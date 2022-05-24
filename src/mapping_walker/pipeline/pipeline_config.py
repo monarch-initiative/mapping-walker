@@ -1,5 +1,5 @@
 # Auto generated from pipeline_config.yaml by pythongen.py version: 0.9.0
-# Generation date: 2022-03-18T17:05:28
+# Generation date: 2022-05-19T10:16:06
 # Schema: walker-confic
 #
 # id: https://w3id.org/sssom/walker_config
@@ -25,6 +25,7 @@ from linkml_runtime.utils.curienamespace import CurieNamespace
 from linkml_runtime.linkml_model.types import Integer, String
 
 metamodel_version = "1.7.0"
+version = None
 
 # Overwrite dataclasses _init_fn to add **kwargs in __init__
 dataclasses._init_fn = dataclasses_init_fn_with_kwargs
@@ -64,6 +65,9 @@ class FilePath(String):
 
 @dataclass
 class BoomerConfiguration(YAMLRoot):
+    """
+    A configuration for boomer command line options
+    """
     _inherited_slots: ClassVar[List[str]] = []
 
     class_class_uri: ClassVar[URIRef] = CONFIG.BoomerConfiguration
@@ -86,6 +90,9 @@ class BoomerConfiguration(YAMLRoot):
 
 @dataclass
 class EndpointConfiguration(YAMLRoot):
+    """
+    A configuration for a mapping endpoint
+    """
     _inherited_slots: ClassVar[List[str]] = []
 
     class_class_uri: ClassVar[URIRef] = CONFIG.EndpointConfiguration
@@ -94,16 +101,27 @@ class EndpointConfiguration(YAMLRoot):
     class_model_uri: ClassVar[URIRef] = CONFIG.EndpointConfiguration
 
     type: Optional[Union[str, "EndpointEnum"]] = None
+    input: Optional[str] = None
+    mappings: Optional[str] = None
 
     def __post_init__(self, *_: List[str], **kwargs: Dict[str, Any]):
         if self.type is not None and not isinstance(self.type, EndpointEnum):
             self.type = EndpointEnum(self.type)
+
+        if self.input is not None and not isinstance(self.input, str):
+            self.input = str(self.input)
+
+        if self.mappings is not None and not isinstance(self.mappings, str):
+            self.mappings = str(self.mappings)
 
         super().__post_init__(**kwargs)
 
 
 @dataclass
 class PipelineConfiguration(YAMLRoot):
+    """
+    A configuration for a pipeline
+    """
     _inherited_slots: ClassVar[List[str]] = []
 
     class_class_uri: ClassVar[URIRef] = CONFIG.PipelineConfiguration
@@ -146,6 +164,7 @@ class EndpointEnum(EnumDefinitionImpl):
 
     OxO = PermissibleValue(text="OxO")
     BioPortal = PermissibleValue(text="BioPortal")
+    Local = PermissibleValue(text="Local")
 
     _defn = EnumDefinition(
         name="EndpointEnum",
@@ -163,6 +182,12 @@ slots.boomerConfiguration__window = Slot(uri=CONFIG.window, name="boomerConfigur
 
 slots.endpointConfiguration__type = Slot(uri=CONFIG.type, name="endpointConfiguration__type", curie=CONFIG.curie('type'),
                    model_uri=CONFIG.endpointConfiguration__type, domain=None, range=Optional[Union[str, "EndpointEnum"]])
+
+slots.endpointConfiguration__input = Slot(uri=CONFIG.input, name="endpointConfiguration__input", curie=CONFIG.curie('input'),
+                   model_uri=CONFIG.endpointConfiguration__input, domain=None, range=Optional[str])
+
+slots.endpointConfiguration__mappings = Slot(uri=CONFIG.mappings, name="endpointConfiguration__mappings", curie=CONFIG.curie('mappings'),
+                   model_uri=CONFIG.endpointConfiguration__mappings, domain=None, range=Optional[str])
 
 slots.pipelineConfiguration__endpoint_configurations = Slot(uri=CONFIG.endpoint_configurations, name="pipelineConfiguration__endpoint_configurations", curie=CONFIG.curie('endpoint_configurations'),
                    model_uri=CONFIG.pipelineConfiguration__endpoint_configurations, domain=None, range=Optional[Union[Union[dict, EndpointConfiguration], List[Union[dict, EndpointConfiguration]]]])

@@ -13,6 +13,7 @@ enums:
     permissible_values:
       OxO:
       BioPortal:
+      Local:
 types:
   MaximumCount:
     typeof: integer
@@ -36,6 +37,10 @@ classes:
     attributes:
       type:
         range: EndpointEnum
+      input:
+        range: string
+      mappings:
+        range: string
   PipelineConfiguration:
     description: >-
       A configuration for a pipeline
